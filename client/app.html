@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PL Match Winner Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	</div>
+		<h2>Home Team</h2>
+	<div>
+    <select class="location" name="" id="uihome">
+        <option value="" disabled="disabled" selected="selected">Choose a Home Team</option>
+            <option>Liverpool</option>
+            <option>Manchester City</option>
+    </select>
+    </div>
+
+    </div>
+        <h2>Away Team</h2>
+    <div>
+    <select class="location" name="" id="uiaway">
+    <option value="" disabled="disabled" selected="selected">Choose a Away Team</option>
+        <option>Arsenal</option>
+        <option>Manchester United</option>
+    </select>
+    </div>
+
+	<button class="submit" onclick="onClickedPredictWinner()" type="button">Predict Winner</button>
+	<div id="uiPredictWinner" class="result">	<h2></h2> </div>
+</body>
+</html>
